@@ -587,9 +587,7 @@ dtb-$(CONFIG_SOC_OMAP5) += \
 	omap5-sbc-t54.dtb \
 	omap5-uevm.dtb
 dtb-$(CONFIG_SOC_DRA7XX) += \
-	embest-SOM_AM572x_TM-mode0.dtb \
-	embest-SOM_AM572x_TM-mode0-HDMI.dtb\
-	embest-SOM_AM572x_TM-mode0-LCD.dtb\
+	embest-AM572x-BB-AI.dtb \
 	am57xx-beagle-x15.dtb \
 	am57xx-beagle-x15-revb1.dtb \
 	am57xx-cl-som-am57x.dtb \

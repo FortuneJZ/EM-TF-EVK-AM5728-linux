@@ -31,8 +31,8 @@ DHDOFILES = aiutils.o siutils.o sbutils.o bcmutils.o bcmwifi_channels.o \
 ifneq ($(CONFIG_BCMDHD_SDIO),)
 DHDCFLAGS += \
 	-DBCMSDIO -DMMC_SDIO_ABORT -DBCMLXSDMMC -DUSE_SDIOFIFO_IOVAR          \
-	-DBDC -DDHD_USE_IDLECOUNT -DCUSTOM_SDIO_F2_BLKSIZE=256                \
-	-DBCMSDIOH_TXGLOM -DBCMSDIOH_TXGLOM_EXT
+	-DBDC -DDHD_USE_IDLECOUNT -DCUSTOM_SDIO_F2_BLKSIZE=256
+	
 
 DHDOFILES += bcmsdh.o bcmsdh_linux.o bcmsdh_sdmmc.o bcmsdh_sdmmc_linux.o \
 	dhd_sdio.o dhd_cdc.o dhd_wlfc.o

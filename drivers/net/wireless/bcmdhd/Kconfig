@@ -7,14 +7,14 @@ config BCMDHD
 config BCMDHD_FW_PATH
 	depends on BCMDHD
 	string "Firmware path"
-	default "/lib/firmware/brcm/fw_bcm43438a1.bin"
+	default "/lib/firmware/brcm/brcmfmac43455-sdio.bin"
 	---help---
 	  Path to the firmware file.
 
 config BCMDHD_NVRAM_PATH
 	depends on BCMDHD
 	string "NVRAM path"
-	default "/lib/firmware/brcm/nvram_ap6212.txt"
+	default "/lib/firmware/brcm/brcmfmac43455-sdio.txt"
 	---help---
 	  Path to the calibration file.
 
